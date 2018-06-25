@@ -10,6 +10,14 @@ class Shoe
     @brand = brand
   end
 
+  def size=(size)
+    @size = size
+  end
+
+  def size
+    @size
+  end
+
     def condition=(condition)
       @condition = condition
     end
